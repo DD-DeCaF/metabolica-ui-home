@@ -86,6 +86,14 @@ module.exports = function () {
             path.resolve(__dirname, 'src'),
             path.dirname(require.resolve('metabolica'))
           ]
+        },
+        {
+          test: /\.remote-md?$/,
+          loader: path.resolve(__dirname, 'loaders/remote-md-loader.js'),
+          include: [
+            path.resolve(__dirname, 'src'),
+            path.dirname(require.resolve('metabolica'))
+          ]
         }
       ]
     },
