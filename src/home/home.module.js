@@ -1,5 +1,6 @@
 import angular from 'angular';
-import template from './home.component.html';
+
+import template from './home.component.remote-md';
 
 
 export const HomeComponent = {
