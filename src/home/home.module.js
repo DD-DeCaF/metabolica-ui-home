@@ -1,10 +1,6 @@
 import angular from 'angular';
-import template from './home.component.html';
 
-
-export const HomeComponent = {
-    template: template
-};
+import {HomeComponent} from './home.component.js';
 
 
 export const HomeModule = angular.module('home', [])
