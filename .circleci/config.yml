@@ -10,5 +10,5 @@ jobs:
     steps:
       - checkout
       # Install eslint explicitly because some dev dependencies are private
-      - run: npm install eslint
+      - run: npm install eslint babel-eslint
       - run: npm run lint
