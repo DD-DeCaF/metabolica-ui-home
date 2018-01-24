@@ -23,3 +23,9 @@ Run the development server:
 ```
 npm start
 ```
+
+The component content is built locally from [the markdown source](https://github.com/DD-DeCaF/metabolica-ui-home/blob/master/src/home/home.component.md) and then committed to vcs. To rebuild:
+
+```
+npm run build-html
+```
