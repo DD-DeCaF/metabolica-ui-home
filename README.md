@@ -1,3 +1,25 @@
 # metabolica-ui-home
 
-Home page AngularJS component for [Metabolica UI](https://github.com/dd-decaf/decaf-metabolica) which renders [the README](https://github.com/DD-DeCaF/decaf-metabolica/blob/master/README.md).
+Home page component for [Decaf Metabolica](https://github.com/dd-decaf/decaf-metabolica)
+
+## Features
+
+This component renders a short introduction to and demonstration of the DD-DeCaF platform.
+
+## Development
+
+Requirements:
+
+- Node.js
+
+Install dependencies:
+
+```
+npm install
+```
+
+Run the development server:
+
+```
+npm start
+```
