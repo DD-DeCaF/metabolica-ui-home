@@ -3,7 +3,7 @@ import template from './home.component.html';
 
 
 export const HomeComponent = {
-    template: template
+    template: `<div class="md-padding"><md-content>${template}</md-content></div>`,
 };
 
 
