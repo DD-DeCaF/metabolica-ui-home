@@ -18,5 +18,5 @@ export const HomeModule = angular.module('home', [])
         data: {
           title: 'Home',
         }
-      })
+      });
   });
