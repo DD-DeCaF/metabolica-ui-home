@@ -15,7 +15,7 @@ The following sections provide an overview of what you can currently do on platf
 ### Login (optional)
 
 You can log in [here](https://app.dd-decaf.eu/login) or by navigating to
-the menu in the upper right-hand corner. We support sign-on through a number of social media platforms. Alternatively, you can contact us for an account.
+the menu in the upper right-hand corner. We support sign-on through a number of social media platforms. Alternatively, you can [contact](mailto:niso@biosustain.dtu.dk) us for an account.
 
 <img src="../../gifs/login.gif" alt="Login screencast" width="650">
 
@@ -36,44 +36,44 @@ The side panel on the left provides the user with additional information (for ex
 
 <img src="../../gifs/side-panel-medium-simulation-methods.gif" alt="Reaction knockout" width="650">
 
-Computationally more extensive methods can be chosen to get uncertainty estimates for the predicted fluxes. For example, pFBA-FVA combines [pFBA](http://cobramethods.wikidot.com/pfba) with [FVA](http://cobramethods.wikidot.com/flux-variability-analysis) (_flux variability analysis_). Uncertain flux are highlighted using transparency.
+Computationally more extensive methods can be chosen to get uncertainty estimates for the predicted fluxes. For example, pFBA-FVA combines [pFBA](http://cobramethods.wikidot.com/pfba) with [FVA](http://cobramethods.wikidot.com/flux-variability-analysis) (_flux variability analysis_). Uncertain [metabolic fluxes](https://en.wikipedia.org/wiki/Flux_(metabolism)) are highlighted using transparency.
 
 <img src="../../gifs/pfba-fva.gif" alt="Reaction knockout" width="650">
 
-The side panel furthermore provides a selection of different pathway maps the user can explore other parts of metabolism for example (amino acid biosynthesis).
+In addition to central carbon metabolism, the side panel provides an extended selection of pathway maps the user can explore. For example amino acid biosynthesis:
 
 <img src="../../gifs/amino-acids-pathway.gif" alt="Select amino acid biosynthesis map" width="650">
 
-You can search the map by pressing Ctrl-F (Command-F on Mac). _The arrow buttons for cycling through the matches are currently not visible. This will be fixed soon._
+You can search the map by pressing Control-F (Command-F on Mac). _The arrow buttons for cycling through the matches are currently not visible. This will be fixed soon._
 
 <img src="../../gifs/searching-on-pathway.gif" alt="Select amino acid biosynthesis map" width="650">
 
-Furthermore native and heterologous reactions can be added on the fly which in combination with reaction deletions (see above) facilitates manual strain design.
+Furthermore, heterologous reactions can be added on the fly which in combination with reaction deletions (see above) facilitates manual strain design.
 
 <img src="../../gifs/add-reaction.gif" alt="Add pyruvate carboxylase" width="650">
 
-The application furthermore allows the user to analyze and integrate data with models (see below for how to upload data to the platform). 
+The application furthermore allows the user to analyze and integrate data with models (see below for how to upload data to the platform) and utilize animation to compare different data sets. 
 
-__TODO: add gif for data-driven card and animation__
+<img src="../../gifs/data-driven-card-animation.gif" alt="Data-driven simulation plus animation" width="650">
 
 ### Computational cell factory design
 
-In the [Pathways](https://app.dd-decaf.eu/app/pathways) application you can predict metabolic routes to products that your can host can not natively produce. You can share pathways with the [Interactive Map](https://app.dd-decaf.eu/app/pathwayvis) application for further inspection. 
+In the [Pathways](https://app.dd-decaf.eu/app/pathways) application you can predict metabolic routes to products that your host can not natively produce and share with the [Interactive Map](https://app.dd-decaf.eu/app/pathwayvis) application for further inspection.
 
 <img src="../../gifs/pathways.gif" alt="Predicting heterologous pathways screencast" width="650">
 
-__TODO: update gif once feature is ready__
-
+In the near future, we will transform this application into a full-fledged computational strain design tool enabling the identification of gene deletion and expression modulation strategies (in addition to the pathway predictions).
 
 ### Assessing the capabilities of cell factories
 
 The [Theoretical Yield](https://app.dd-decaf.eu/app/yields) application enables you to evaluate your strain performance in the context of the theoretical production and growth limits.
 
-__TODO: update gif once platform fixed__
-
+<img src="../../gifs/theoretical-yield-app.gif" alt="Theoretical yield app" width="650">
 
 ### Uploading data
 
-If you're not comfortable uploading proprietary data, please get in touch ([niso@biosustain.dtu.dk](mailto:niso@biosustain.dtu.dk)) as our platform can easily be deployed on your own premise.
+The [Upload data](https://app.dd-decaf.eu/app/upload) application will appear in the left panel after you log in. It supports a number of different data types and experimental meta data.
 
-__TODO: add gifs for data upload__
+<img src="../../gifs/upload-data.gif" alt="Uploading data" width="650">
+
+If you're not comfortable uploading proprietary data, please get in touch with us ([niso@biosustain.dtu.dk](mailto:niso@biosustain.dtu.dk)) as our platform can easily be deployed to your own infrastructure.
