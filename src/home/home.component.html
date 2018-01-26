@@ -10,7 +10,7 @@
 <p>The following sections provide an overview of what you can currently do on platform. Have fun!</p>
 <h3 id="login-optional-">Login (optional)</h3>
 <p>You can log in <a href="https://app.dd-decaf.eu/login">here</a> or by navigating to
-the menu in the upper right-hand corner. We support sign-on through a number of social media platforms. Alternatively, you can contact us for an account.</p>
+the menu in the upper right-hand corner. We support sign-on through a number of social media platforms. Alternatively, you can <a href="mailto:niso@biosustain.dtu.dk">contact</a> us for an account.</p>
 <p><img src="../../gifs/login.gif" alt="Login screencast" width="650"></p>
 <p>Logging in is optional, (you can browse public domain data and run
 simulations) but necessary for uploading your own data.</p>
@@ -21,23 +21,24 @@ simulations) but necessary for uploading your own data.</p>
 <p><img src="../../gifs/undo-knockout.gif" alt="Reaction knockout" width="650"></p>
 <p>The side panel on the left provides the user with additional information (for example the medium composition) and the ability to select different model simulation methods. The default simulation method, <a href="http://cobramethods.wikidot.com/pfba">pFBA</a> (<em>parsimonious flux balance analysis</em>), will compute a flux distribution that maximizes growth yield and minimizes the cost of enzyme expression simultaneously. Descriptions of the other available methods will follow shortly.</p>
 <p><img src="../../gifs/side-panel-medium-simulation-methods.gif" alt="Reaction knockout" width="650"></p>
-<p>Computationally more extensive methods can be chosen to get uncertainty estimates for the predicted fluxes. For example, pFBA-FVA combines <a href="http://cobramethods.wikidot.com/pfba">pFBA</a> with <a href="http://cobramethods.wikidot.com/flux-variability-analysis">FVA</a> (<em>flux variability analysis</em>). Uncertain flux are highlighted using transparency.</p>
+<p>Computationally more extensive methods can be chosen to get uncertainty estimates for the predicted fluxes. For example, pFBA-FVA combines <a href="http://cobramethods.wikidot.com/pfba">pFBA</a> with <a href="http://cobramethods.wikidot.com/flux-variability-analysis">FVA</a> (<em>flux variability analysis</em>). Uncertain <a href="https://en.wikipedia.org/wiki/Flux_(metabolism">metabolic fluxes</a>) are highlighted using transparency.</p>
 <p><img src="../../gifs/pfba-fva.gif" alt="Reaction knockout" width="650"></p>
-<p>The side panel furthermore provides a selection of different pathway maps the user can explore other parts of metabolism for example (amino acid biosynthesis).</p>
+<p>In addition to central carbon metabolism, the side panel provides an extended selection of pathway maps the user can explore. For example amino acid biosynthesis:</p>
 <p><img src="../../gifs/amino-acids-pathway.gif" alt="Select amino acid biosynthesis map" width="650"></p>
-<p>You can search the map by pressing Ctrl-F (Command-F on Mac). <em>The arrow buttons for cycling through the matches are currently not visible. This will be fixed soon.</em></p>
+<p>You can search the map by pressing Control-F (Command-F on Mac). <em>The arrow buttons for cycling through the matches are currently not visible. This will be fixed soon.</em></p>
 <p><img src="../../gifs/searching-on-pathway.gif" alt="Select amino acid biosynthesis map" width="650"></p>
-<p>Furthermore native and heterologous reactions can be added on the fly which in combination with reaction deletions (see above) facilitates manual strain design.</p>
+<p>Furthermore, heterologous reactions can be added on the fly which in combination with reaction deletions (see above) facilitates manual strain design.</p>
 <p><img src="../../gifs/add-reaction.gif" alt="Add pyruvate carboxylase" width="650"></p>
-<p>The application furthermore allows the user to analyze and integrate data with models (see below for how to upload data to the platform). </p>
-<p><strong>TODO: add gif for data-driven card and animation</strong></p>
+<p>The application furthermore allows the user to analyze and integrate data with models (see below for how to upload data to the platform) and utilize animation to compare different data sets. </p>
+<p><img src="../../gifs/data-driven-card-animation.gif" alt="Data-driven simulation plus animation" width="650"></p>
 <h3 id="computational-cell-factory-design">Computational cell factory design</h3>
-<p>In the <a href="https://app.dd-decaf.eu/app/pathways">Pathways</a> application you can predict metabolic routes to products that your can host can not natively produce. You can share pathways with the <a href="https://app.dd-decaf.eu/app/pathwayvis">Interactive Map</a> application for further inspection. </p>
+<p>In the <a href="https://app.dd-decaf.eu/app/pathways">Pathways</a> application you can predict metabolic routes to products that your host can not natively produce and share with the <a href="https://app.dd-decaf.eu/app/pathwayvis">Interactive Map</a> application for further inspection.</p>
 <p><img src="../../gifs/pathways.gif" alt="Predicting heterologous pathways screencast" width="650"></p>
-<p><strong>TODO: update gif once feature is ready</strong></p>
+<p>In the near future, we will transform this application into a full-fledged computational strain design tool enabling the identification of gene deletion and expression modulation strategies (in addition to the pathway predictions).</p>
 <h3 id="assessing-the-capabilities-of-cell-factories">Assessing the capabilities of cell factories</h3>
 <p>The <a href="https://app.dd-decaf.eu/app/yields">Theoretical Yield</a> application enables you to evaluate your strain performance in the context of the theoretical production and growth limits.</p>
-<p><strong>TODO: update gif once platform fixed</strong></p>
+<p><img src="../../gifs/theoretical-yield-app.gif" alt="Theoretical yield app" width="650"></p>
 <h3 id="uploading-data">Uploading data</h3>
-<p>If you&#39;re not comfortable uploading proprietary data, please get in touch (<a href="mailto:niso@biosustain.dtu.dk">niso@biosustain.dtu.dk</a>) as our platform can easily be deployed on your own premise.</p>
-<p><strong>TODO: add gifs for data upload</strong></p>
+<p>The <a href="https://app.dd-decaf.eu/app/upload">Upload data</a> application will appear in the left panel after you log in. It supports a number of different data types and experimental meta data.</p>
+<p><img src="../../gifs/upload-data.gif" alt="Uploading data" width="650"></p>
+<p>If you&#39;re not comfortable uploading proprietary data, please get in touch with us (<a href="mailto:niso@biosustain.dtu.dk">niso@biosustain.dtu.dk</a>) as our platform can easily be deployed to your own infrastructure.</p>
