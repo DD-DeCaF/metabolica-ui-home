@@ -1,0 +1,9 @@
+home {
+  overflow: scroll;
+
+  img {
+    max-width: calc(100vw - 16px);
+    display: block;
+    margin: 0 auto;
+  }
+}
