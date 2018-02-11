@@ -1,5 +1,7 @@
 # Getting started
 
+<!-- toc -->
+
 Welcome to our cell factory design and analysis platform! We develop the platform as part of the [DD-DeCaF](http://dd-decaf.eu) project with the goal to put model-guided and data-driven design into practice in industrial biotechnology. The platform will enable the following key technologies:
 
 * Metagenomics-enabled design of novel enzymes and biochemical pathways.
