@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "webpack",
-    "build-html": "marked --gfm -i ./src/home/home.component.md -o ./src/home/home.component.html",
+    "build-html": "node scripts/parseMarkdown.js src/home/home.component.md src/home/home.content.html",
     "start": "webpack-dev-server",
     "lint": "eslint --max-warnings 0 src"
   },
@@ -33,7 +33,9 @@
     "file-loader": "^0.10.0",
     "html-loader": "^0.4.4",
     "html-webpack-plugin": "^2.28.0",
+    "markdown-toc": "^1.2.0",
     "marked": "^0.3.12",
+    "minimist": "^1.2.0",
     "node-sass": "^4.5.0",
     "sass-loader": "^5.0.1",
     "ts-loader": "^2.0.0",
