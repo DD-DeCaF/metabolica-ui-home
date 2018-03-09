@@ -4,6 +4,6 @@ import {HomeModule} from './home/home.module';
 export {HomeModule} from './home/home.module';
 
 export const HomeAppModule = angular.module('HomeApp', [
-  AppModule.name,
+    AppModule.name,
   HomeModule.name
-]);
+])
